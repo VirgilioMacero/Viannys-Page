@@ -1,0 +1,61 @@
+.Name{
+font-weight:300;
+font-family:Assistant;
+margin-top: 21vw;
+
+}
+.PageMenu>li>a{
+
+    color: black;
+
+}
+.logo{
+
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+
+}
+
+.Message-arial>pre{
+
+    margin-top: 200px;
+    margin-bottom:200px;
+    font-weight:300;
+    font-family:Assistant;
+
+    
+}
+.Message-arial{
+
+    text-align:center;
+
+}
+.subMessage>pre{
+
+    font-family:Assistant;
+
+
+}
+.abalible-services-title-container{
+    text-align: right;
+    margin-top: 100px;
+}
+.part-title{
+    font-weight:lighter;
+    font-size: 3.8vw;
+    font-family:Assistant;
+
+
+}
+.service-image{
+
+    display: grid;
+
+
+}
+/* .abalible-services:hover{
+
+
+
+} */

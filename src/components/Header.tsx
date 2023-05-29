@@ -1,13 +1,23 @@
-import Title from "./Title";
+import Logo from "./Logo.tsx";
+import PageMenu from "./PageMenu.tsx";
 
 function Header() {
-  return <div>
+  return (
+    <div className="navbar-fixed">
 
+    <nav className="white ">
+      <div className="nav-content">
+        <div className="container">
 
-    <Title/>
+        <Logo/>
+        <PageMenu/>
 
-
-  </div>;
+        </div>
+      </div>
+    </nav>
+      
+    </div>
+  );
 }
 
 export default Header;
