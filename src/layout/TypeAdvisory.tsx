@@ -4,7 +4,7 @@ import Image from "../components/Image";
 function TypeAdvisory() {
   return (
     <>
-      <div className="divider" style={{ marginTop: "100px" }}></div>
+      <div id="Asesorias" className="divider" style={{ marginTop: "100px" }}></div>
       <div className="container">
         <div className="row">
           <SegmentTitle text="ASESORIAS NUTRICIONALES" />

@@ -3,7 +3,7 @@ import Message from "../components/Message";
 function SecondPart() {
   return (
     <>
-      <div className="divider"></div>
+      <div id="about" className="divider"></div>
       <div className="container z-depth-4" style={{ marginTop: "100px" }}>
         <div className="row">
           <Message

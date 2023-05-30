@@ -1,58 +1,83 @@
-.Name{
-font-weight:300;
-font-family:Assistant;
-margin-top: 21vw;
-
+.Name {
+  font-weight: 300;
+  font-family: Assistant;
+  margin-top: 21vw;
 }
-.PageMenu>li>a{
-
-    color: black;
-
+.PageMenu > li > a {
+  color: black;
 }
-.logo{
-
-    border-right: solid black 2px;
-    border-left: solid black 2px;
-    border-bottom: solid black 2px;
-
+.logo {
+  border-right: solid black 2px;
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
 }
 
-.Message-arial>pre{
-
-    margin-top: 200px;
-    margin-bottom:200px;
-    font-weight:300;
-    font-family:Assistant;
-
-    
+.Message-arial > pre {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-weight: 300;
+  font-family: Raleway;
 }
-.Message-arial{
-
-    text-align:center;
-
+.nutritional-message > pre {
+  margin-top: 200px;
+  font-weight: 100;
+  font-size: 1.8vw;
+  font-family: Raleway;
 }
-.subMessage>pre{
-
-    font-family:Assistant;
-
-
+.nutritional-message {
+  text-align: center;
 }
-.abalible-services-title-container{
-    text-align: right;
-    margin-top: 100px;
+.nutritional-message-styled {
+  text-align: center;
 }
-.part-title{
-    font-weight:lighter;
-    font-size: 3.8vw;
-    font-family:Assistant;
-
-
+.nutritional-message-styled > pre {
+  margin-bottom: 200px;
+  font-family: League script;
+  font-size: 3vw;
+  font-weight: bold;
 }
-.service-image{
-
-    display: grid;
-
-
+.Message-arial {
+  text-align: center;
+}
+.subMessage > pre {
+  font-family: Raleway;
+  font-weight: lighter;
+}
+.abalible-services-title-container {
+  text-align: right;
+  margin-top: 100px;
+}
+.part-title {
+  font-weight: lighter;
+  font-size: 3.8vw;
+  font-family: Plus + Jakarta + Sans; /* Modificado*/
+}
+.service-image {
+  display: grid;
+}
+.resume-title {
+  font-family: League script;
+  font-size: 5vw;
+  font-weight: 400;
+  margin-top: 21vw;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.experience-title {
+  font-weight: bold;
+  font-family: Plus + Jakarta + Sans;
+}
+.experience {
+  font-family: Plus + Jakarta + Sans;
+}
+.presentation {
+  margin-top: 150px;
+  margin-left: 7vw;
+}
+@media (max-width: 800px) {
+  .presentation {
+    margin-left: 0px;
+  }
 }
 /* .abalible-services:hover{
 

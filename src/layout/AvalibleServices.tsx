@@ -5,7 +5,7 @@ import Image from "../components/Image";
 function AvalibleServices() {
   return (
     <>
-      <div className="divider" style={{ marginTop: "100px" }}></div>
+      <div id="Servicios" className="divider" style={{ marginTop: "100px" }}></div>
       <div className="container">
         <div className="row">
           <SegmentTitle text="ATENCIONES DISPONIBLES" />
