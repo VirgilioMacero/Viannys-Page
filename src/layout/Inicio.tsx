@@ -8,6 +8,7 @@ function Inicio() {
         <div className="col s6">
           <img
             src={nombre}
+            loading="lazy"
             alt="logo"
             className="Name"
             height={"250"}

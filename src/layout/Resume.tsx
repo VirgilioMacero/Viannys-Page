@@ -31,6 +31,7 @@ function Resume() {
           </div>
           <div className="col s6">
             <img
+              loading="lazy"
               className="presentation responsive-image"
               src={fotoPerfil}
             ></img>
