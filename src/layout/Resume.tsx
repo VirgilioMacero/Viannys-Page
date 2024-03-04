@@ -1,4 +1,5 @@
 import Experience from "../components/Experience";
+import fotoPerfil from "../assets/img/Presentacion.png";
 
 function Resume() {
   return (
@@ -31,7 +32,7 @@ function Resume() {
           <div className="col s6">
             <img
               className="presentation responsive-image"
-              src="/src/img/Presentacion.png"
+              src={fotoPerfil}
             ></img>
           </div>
         </div>
