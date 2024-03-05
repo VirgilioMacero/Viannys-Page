@@ -1,0 +1,154 @@
+{
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Andrea Corbalan"
+      },
+      "datePublished": "2024-03-03",
+      "description": "Estoy feliz con la atención de Vianny, súper profesional, muy preparada y con mucho conocimiento, yo estoy en plena menopausia y ha tenido una paciencia increíble, siempre atenta a mis consultas y me ha enseñado que es lo mejor para mi salud y bienestar en esta etapa, con excelentes resultados!! La recomiendo al 100%",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Pamela Escobar"
+      },
+      "datePublished": "2024-02-29",
+      "description": "Excelente profesional, súper clara en responder todas las dudas.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jimberlyn Sanchez"
+      },
+      "datePublished": "2024-02-29",
+      "description": "Tuve mi primer control con Vianny y me fue excelente, encanta con su atención personalizada!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Matias Lanzoni"
+      },
+      "datePublished": "2024-02-28",
+      "description": "",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Rodrigo Montecino"
+      },
+      "datePublished": "2024-02-23",
+      "description": "",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Alfonso Ariztia"
+      },
+      "datePublished": "2024-02-23",
+      "description": "Excelente atención, muy profesional. Fue una consulta integral, abordando varios aspectos de mi estilo de vida. Su asesoría está mejorando significativamente mi desempeño deportivo.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Alex Henriquez"
+      },
+      "datePublished": "2024-02-21",
+      "description": "",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Iván Urbina Muñoz"
+      },
+      "datePublished": "2024-02-16",
+      "description": "Excelente atención, dedicada y confiable",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Maria Jesus Corbalan"
+      },
+      "datePublished": "2024-02-02",
+      "description": "Excelente atención! muy dedicada a entregar una cómoda y grata sesión",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jimberlyn Sanchez"
+      },
+      "datePublished": "2024-01-31",
+      "description": "Empatía y muy profesional",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  ]
+}

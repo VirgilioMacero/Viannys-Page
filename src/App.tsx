@@ -6,18 +6,20 @@ import AvalibleServices from "./layout/AvalibleServices";
 import TypeAdvisory from "./layout/TypeAdvisory";
 import NutritionalMessage from "./layout/NutritionalMessage";
 import Resume from "./layout/Resume";
+import Reviews from "./layout/Reviews";
+import AboutMe from "./layout/AboutMe";
 function App() {
-  
   return (
     <>
       <Header />
       <Inicio />
-      <SecondPart/>
-      <AvalibleServices/>
-      <TypeAdvisory/>
-      <NutritionalMessage/>
-      <Resume/>
-      
+      <NutritionalMessage />
+      <AboutMe />
+      <Resume />
+      <SecondPart />
+      <AvalibleServices />
+      <TypeAdvisory />
+      <Reviews />
     </>
   );
 }

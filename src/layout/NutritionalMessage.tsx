@@ -1,12 +1,13 @@
 import Message from "../components/Message";
+import Divider from "../components/Divider";
 function NutritionalMessage() {
   return (
     <>
-      <div className="divider" style={{ marginTop: "100px",marginBottom:"100px" }}></div>
-        <div className="container z-depth-4">
-            <div className="row">
-            <Message
-            usedClass="col s12 nutritional-message"
+      <Divider id="" mt="100px" mb="100px" />
+      <div className="container z-depth-4">
+        <div className="row">
+          <Message
+            usedClass="col s12 nutritional-message mt-[150px]"
             data={` 
 
          MI ENFOQUE DE TRATAMIENTO NO SOLO CONSIDERA TU ALIMENTACION. 
@@ -16,15 +17,13 @@ function NutritionalMessage() {
            `}
           />
           <div className="row">
-
-            <Message data="     Porque la salud es multifacética" usedClass="col s12 nutritional-message-styled"/>
-
+            <Message
+              data="     Porque la salud es multifacética"
+              usedClass="col s12 nutritional-message-styled"
+            />
           </div>
-            </div>
-
         </div>
-
-
+      </div>
     </>
   );
 }

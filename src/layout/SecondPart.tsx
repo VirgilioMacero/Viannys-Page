@@ -1,13 +1,14 @@
 import Message from "../components/Message";
+import Divider from "../components/Divider";
 
 function SecondPart() {
   return (
     <>
-      <div id="about" className="divider"></div>
-      <div className="container z-depth-4" style={{ marginTop: "100px" }}>
+      <Divider id="about" mt="100px" mb="100px" />
+      <div className="container z-depth-4">
         <div className="row">
           <Message
-            usedClass="col s12 Message-arial"
+            usedClass="col s12 Message-arial my-[150px]"
             data={` 
 
     ENFOQUE NO PESO CENTRISTA 

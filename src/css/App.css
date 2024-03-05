@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Garet Heavy";
+  src: url("../fonts/Garet-Heavy.otf") format("opentype");
+}
+
 .Name {
   font-weight: 300;
   font-family: Assistant;
@@ -12,14 +21,11 @@
   border-bottom: solid black 2px;
 }
 
-.Message-arial > pre {
-  margin-top: 200px;
-  margin-bottom: 200px;
+.Message-arial > p {
   font-weight: 300;
   font-family: Raleway;
 }
-.nutritional-message > pre {
-  margin-top: 200px;
+.nutritional-message > p {
   font-weight: 100;
   font-size: 1.8vw;
   font-family: Raleway;
@@ -30,7 +36,7 @@
 .nutritional-message-styled {
   text-align: center;
 }
-.nutritional-message-styled > pre {
+.nutritional-message-styled > p {
   margin-bottom: 200px;
   font-family: League script;
   font-size: 3vw;
@@ -39,7 +45,7 @@
 .Message-arial {
   text-align: center;
 }
-.subMessage > pre {
+.subMessage {
   font-family: Raleway;
   font-weight: lighter;
 }
@@ -84,3 +90,25 @@
 
 
 } */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
