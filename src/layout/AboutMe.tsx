@@ -1,4 +1,3 @@
-import React from "react";
 import perfilImage from "../assets/img/ViannyLookingLaptop.webp";
 import Divider from "../components/Divider";
 import Message from "../components/Message";

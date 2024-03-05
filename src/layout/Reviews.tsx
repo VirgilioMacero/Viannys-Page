@@ -1,4 +1,3 @@
-import React from "react";
 import Review from "../components/Review";
 import Divider from "../components/Divider";
 import jsonReviews from "../assets/jsons/reviews.json";

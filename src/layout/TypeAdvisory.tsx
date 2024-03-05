@@ -27,6 +27,8 @@ function TypeAdvisory() {
             <Image
               route={firstImage}
               url="https://encuadrado.com/p/vianny-macero/"
+              firsText=""
+              secodText=""
             />
           </div>
 

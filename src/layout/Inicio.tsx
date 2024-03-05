@@ -1,4 +1,3 @@
-import nombre from "../assets/img/Nombre.png";
 import inicio from "../assets/img/FruitsAndBooks.webp";
 import ViannyLookingPhone from "../assets/img/ViannyLookingPhone.webp";
 import ViannyOnBooks from "../assets/img/ViannyLookingLeft.webp";
