@@ -7,14 +7,8 @@ function NutritionalMessage() {
       <div className="container z-depth-4">
         <div className="row">
           <Message
-            usedClass="col s12 nutritional-message mt-[150px]"
-            data={` 
-
-         MI ENFOQUE DE TRATAMIENTO NO SOLO CONSIDERA TU ALIMENTACION. 
-
-            ES IGUAL DE IMPORTANTE ABORDAR TU MENTE, CUERPO Y ESPIRITU.
-           
-           `}
+            usedClass="col s12 nutritional-message mt-[150px] max-[700px]:text-[70px]"
+            data={`La verdad es... que no me importa tu peso. \n Mi enfoque de atención no sólo considera tu \n alimentación, también voy a abordar tu \n mente, cuerpo y espíritu. `}
           />
           <div className="row">
             <Message

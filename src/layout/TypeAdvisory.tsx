@@ -15,7 +15,7 @@ function TypeAdvisory() {
           text="ASESORIAS NUTRICIONALES"
           titleLeft={true}
           className="mt-0 justify-end"
-          titleClasses="col-start-3 "
+          titleClasses="col-start-3 max-[950px]:text-[230%] max-[950px]:col-span-2 max-[400px]:text-3xl"
           titleRigth={false}
         />
 
