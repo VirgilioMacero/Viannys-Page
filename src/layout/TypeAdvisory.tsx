@@ -20,35 +20,32 @@ function TypeAdvisory() {
         />
 
         <div
-          className=" grid grid-cols-3"
-          style={{ marginTop: "100px", marginBottom: "100px" }}
+          className=" grid grid-cols-3 place-items-center gap-4 max-[1025px]:grid-cols-2 max-[700px]:grid-cols-1"
+          style={{
+            marginTop: "100px",
+            marginBottom: "100px",
+          }}
         >
-          <div className=" ">
-            <Image
-              route={firstImage}
-              url="https://encuadrado.com/p/vianny-macero/"
-              firsText=""
-              secodText=""
-            />
-          </div>
+          <Image
+            route={firstImage}
+            url="https://encuadrado.com/p/vianny-macero/"
+            firsText=""
+            secodText=""
+          />
 
-          <div className=" ">
-            <Image
-              route={secondImage}
-              url="https://encuadrado.com/p/vianny-macero/"
-              firsText="Online"
-              secodText="(Videollamada)"
-            />
-          </div>
+          <Image
+            route={secondImage}
+            url="https://encuadrado.com/p/vianny-macero/"
+            firsText="Online"
+            secodText="(Videollamada)"
+          />
 
-          <div className="">
-            <Image
-              route={TirdImage}
-              url="https://encuadrado.com/p/vianny-macero/"
-              firsText="Formulario"
-              secodText="(Sin Videollamada)"
-            />
-          </div>
+          <Image
+            route={TirdImage}
+            url="https://encuadrado.com/p/vianny-macero/"
+            firsText="Formulario"
+            secodText="(Sin Videollamada)"
+          />
         </div>
       </div>
     </>
