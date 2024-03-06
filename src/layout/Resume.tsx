@@ -4,6 +4,14 @@ import fotoPerfil from "../assets/img/ViannySmilingonBooks.webp";
 import Message from "../components/Message";
 
 function Resume() {
+  function convertirMayusculas(texto: string) {
+    if (typeof texto === "string") {
+      return texto.toUpperCase();
+    } else {
+      // Manejar el caso cuando la entrada no es una cadena
+      return "Error: La entrada no es una cadena";
+    }
+  }
   return (
     <>
       <Divider id="" mt="100px" mb="100px" />
@@ -20,20 +28,30 @@ Y DEPORTE "
           <div>
             <h1 className="resume-title text-[60px]">Mis estudios</h1>
             <Experience
-              title="TÍTULO DE NUTRICIONISTA"
-              info="UNIVERSIDAD DE LOS ANDES"
+              title={convertirMayusculas(
+                "Título de Nutricionista mención deporte"
+              )}
+              info={convertirMayusculas("Universidad de Los AndeS - CHILE")}
             />
             <Experience
-              title="MENCIÓN NUTRICIÓN DEPORTIVA"
-              info="OLD GRANGONIAN CLUB Y CLUB DE FÚTBOL RECOLETA"
+              title={convertirMayusculas("master en coaching y mindfulness")}
+              info={convertirMayusculas("eneb x universidad isabel i - españa")}
             />
             <Experience
-              title="DIPLOMADO EN NUTRICIÓN DEPORTIVA"
-              info="BARÇA INNOVATION HUB, CLUB DE FÚTBOL BARCELONA"
+              title={convertirMayusculas("Diplomado en Nutrición Deportiva")}
+              info={convertirMayusculas(
+                "Barça Innovation Hub, Club de Fútbol Barcelona - ESPAña"
+              )}
             />
             <Experience
-              title="CERTIFICACIÓN INTERNACIONAL EN PSICONUTRICIÓN"
-              info="INSTITUTO VIVE SANO BRASIL"
+              title={convertirMayusculas("CERTIFICACIÓN ISAK NIVEL 1")}
+              info={convertirMayusculas("STRONG AND FIT CENTER - chile")}
+            />
+            <Experience
+              title={convertirMayusculas(
+                "CERITIFCAción internacional en psiconutrición"
+              )}
+              info={convertirMayusculas("instituto vive sano - brasil")}
             />
           </div>
         </div>

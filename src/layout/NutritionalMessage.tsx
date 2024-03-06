@@ -4,19 +4,15 @@ function NutritionalMessage() {
   return (
     <>
       <Divider id="" mt="100px" mb="100px" />
-      <div className="container z-depth-4">
-        <div className="row">
-          <Message
-            usedClass="col s12 nutritional-message mt-[150px] max-[700px]:text-[70px]"
-            data={`La verdad es... que no me importa tu peso. \n Mi enfoque de atención no sólo considera tu \n alimentación, también voy a abordar tu \n mente, cuerpo y espíritu. `}
-          />
-          <div className="row">
-            <Message
-              data="     Porque la salud es multifacética"
-              usedClass="col s12 nutritional-message-styled"
-            />
-          </div>
-        </div>
+      <div className="container">
+        <Message
+          usedClass=" nutritional-message text-3xl  max-[700px]:text-2xl"
+          data={`La verdad es... <strong >que no me importa tu peso.</strong> \n Mi enfoque de atención no sólo considera tu \n alimentación, también voy a abordar tu \n <strong>mente, cuerpo y espíritu.</strong>`}
+        />
+        <Message
+          data="     Porque la salud es multifacética"
+          usedClass="nutritional-message-styled text-4xl mt-4 max-[700px]:text-3xl "
+        />
       </div>
     </>
   );

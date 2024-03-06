@@ -30,7 +30,6 @@ export default function Reviews() {
           }
         })}
       </div>
-      <Divider id="" mt="100px" mb="100px" />
     </>
   );
 }

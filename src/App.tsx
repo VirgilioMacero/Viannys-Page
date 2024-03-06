@@ -8,6 +8,7 @@ import NutritionalMessage from "./layout/NutritionalMessage";
 import Resume from "./layout/Resume";
 import Reviews from "./layout/Reviews";
 import AboutMe from "./layout/AboutMe";
+import ImageLeft from "./layout/ImageLeft";
 function App() {
   return (
     <>
@@ -17,9 +18,10 @@ function App() {
       <AboutMe />
       <Resume />
       <SecondPart />
-      <AvalibleServices />
+      {/* <AvalibleServices /> */}
       <TypeAdvisory />
       <Reviews />
+      <ImageLeft />
     </>
   );
 }

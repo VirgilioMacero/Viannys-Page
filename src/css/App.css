@@ -26,8 +26,6 @@
   font-family: Raleway;
 }
 .nutritional-message > p {
-  font-weight: 100;
-  font-size: 1.8vw;
   font-family: Raleway;
 }
 .nutritional-message {
@@ -37,9 +35,7 @@
   text-align: center;
 }
 .nutritional-message-styled > p {
-  margin-bottom: 200px;
   font-family: League script;
-  font-size: 3vw;
   font-weight: bold;
 }
 .Message-arial {

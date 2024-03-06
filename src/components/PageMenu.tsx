@@ -6,20 +6,22 @@ function PageMenu() {
           <a href="#Inicio">Inicio</a>
         </li>
         <li>
-          <a href="#about">Acerca de</a>
+          <a href="#about">Conóceme</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#Servicios">Servicios</a>
-        </li>
+        </li> */}
         <li>
           <a href="#Asesorias">Asesorias</a>
+        </li>
+        <li>
+          <a href="#Address">Ubicación</a>
         </li>
 
         <li>
           <a href="#contacto">Contacto</a>
         </li>
       </ul>
-
     </>
   );
 }

@@ -1,7 +1,7 @@
 import SegmentTitle from "../components/SegmentTitle";
 import Image from "../components/Image";
 import Divider from "../components/Divider";
-import firstImage from "../assets/img/Presencial.png";
+import firstImage from "../assets/img/asesoria_nutricional.png";
 import secondImage from "../assets/img/viannySmillingLaptop.webp";
 import TirdImage from "../assets/img/LaptopForm.png";
 
@@ -29,7 +29,7 @@ function TypeAdvisory() {
           <Image
             route={firstImage}
             url="https://encuadrado.com/p/vianny-macero/"
-            firsText=""
+            firsText="Presencial"
             secodText=""
           />
 
