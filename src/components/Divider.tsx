@@ -10,7 +10,7 @@ export default function Divider({
   return (
     <div
       id={id}
-      className="divider"
+      className="divider h-[1px]"
       style={{ marginTop: mt, marginBottom: mb }}
     ></div>
   );

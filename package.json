@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "tsc": "tsc -w",
     "dev": "vite --host",
     "build": "tsc && vite build && pm2 start ecosystem.config.cjs --env production",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

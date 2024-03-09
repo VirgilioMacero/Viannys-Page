@@ -1,9 +1,9 @@
 import Divider from "../components/Divider";
-import ViannyLookingLaptop from "../assets/img/ViannyLookingLaptop.webp";
+import FormFilling from "../assets/img/FormFilling.png";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
 
-export default function ImageLeft() {
+export default function FormModality() {
   function redirect(url: string) {
     window.open(url, "_blank");
   }
@@ -11,11 +11,11 @@ export default function ImageLeft() {
     <>
       <Divider id="" mb="100px" mt="100px" />
       <div
-        id="OnlineModality"
+        id="FormModality"
         className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
       >
         <div className="max-[700px]:p-20">
-          <img src={ViannyLookingLaptop} loading="lazy" alt="Online Modality" />
+          <img src={FormFilling} loading="lazy" alt="Online Modality" />
         </div>
         <div className="grid grid-cols-1 align-middle self-center gap-6 max-[700px]:col-row-1 text-center">
           <div>
@@ -23,26 +23,27 @@ export default function ImageLeft() {
               className="text-[50px] text-center"
               style={{ fontFamily: "Raleway" }}
             >
-              MODALIDAD<br></br> ONLINE
+              MODALIDAD<br></br> FORMULARIO
             </h1>
             <p className="text-justify px-4 mt-3">
-              Asesoría nutricional por videollamada, con una duración de 60
-              minutos donde conversaremos sobre tus hábitos, gustos, estilo de
-              vida, objetivos nutricionales, entre otros temas para poder
-              conocerte bien y así crear un plan de alimentación que se adapte
-              100% a tu vida.
+              En esta asesoría nos comunicaremos a través de un formulario que
+              te haré llegar al correo, es igual de efectiva que una sesión
+              online o presencial., ya que en el fromulario recopilaré toda la
+              información necesaria sobre tus hábitos, objetivos, estilo de
+              vida, entre otros... para así crear un plan de alimentación que se
+              adapte 100% a tu vida.
             </p>
           </div>
           <div className="justify-center h-16 align-middle">
             <Button
               onClick={() =>
                 // @ts-ignore
-                document.getElementById("modal-online-modality").showModal()
+                document.getElementById("modal-form-modality").showModal()
               }
               name="Click aquí"
               className="focus:bg-white hover:bg-gray-700 hover:text-white"
             />
-            <Modal modalName="modal-online-modality">
+            <Modal modalName="modal-form-modality">
               <h3
                 className="font-bold text-lg"
                 style={{ fontFamily: "Raleway" }}
@@ -53,7 +54,7 @@ export default function ImageLeft() {
                 <Button
                   onClick={() => {
                     redirect(
-                      "https://encuadrado.com/p/vianny-macero/s/primera-asesoria-nutricional-online/"
+                      "https://encuadrado.com/s/vianny-macero/atencion-nutricional-por-formulario/"
                     );
                   }}
                   className="focus:bg-white hover:bg-gray-700 hover:text-white"
@@ -62,7 +63,7 @@ export default function ImageLeft() {
                 <Button
                   onClick={() =>
                     redirect(
-                      "https://encuadrado.com/p/vianny-macero/s/asesoria-de-seguimiento-nutricional-online/"
+                      "https://encuadrado.com/s/vianny-macero/atencion-nutricional-por-formulario/"
                     )
                   }
                   className="focus:bg-white hover:bg-gray-700 hover:text-white"

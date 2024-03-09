@@ -4,11 +4,11 @@ import Divider from "../components/Divider";
 function SecondPart() {
   return (
     <>
-      <Divider id="about" mt="100px" mb="100px" />
-      <div className="container z-depth-4">
+      <Divider id="" mt="100px" mb="100px" />
+      <div className="container">
         <div className="row">
           <Message
-            usedClass="col s12 Message-arial my-[150px]"
+            usedClass="col s12 Message-arial my-[150px] font-bold"
             data={` 
 
     ENFOQUE NO PESO CENTRISTA 

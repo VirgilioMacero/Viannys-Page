@@ -15,14 +15,8 @@
 .PageMenu > li > a {
   color: black;
 }
-.logo {
-  border-right: solid black 2px;
-  border-left: solid black 2px;
-  border-bottom: solid black 2px;
-}
 
 .Message-arial > p {
-  font-weight: 300;
   font-family: Raleway;
 }
 .nutritional-message > p {

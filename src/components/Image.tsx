@@ -3,9 +3,10 @@ function Image(props: {
   url: string;
   firsText: string;
   secodText: string;
+  target: string;
 }) {
   return (
-    <a target="_blank" href={props.url}>
+    <a target={props.target} href={props.url}>
       <div
         className="w-[287px] h-[287px] "
         style={{

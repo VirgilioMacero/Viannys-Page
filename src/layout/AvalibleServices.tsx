@@ -27,6 +27,7 @@ function AvalibleServices() {
               firsText="Asesoria"
               secodText="Nutricionale"
               url="https://encuadrado.com/p/vianny-macero/"
+              target=""
             />
           </div>
           <div className="place-self-center">
@@ -35,6 +36,7 @@ function AvalibleServices() {
               firsText="Talleres"
               secodText="Educativos"
               url="https://encuadrado.com/p/vianny-macero/"
+              target=""
             />
           </div>
         </div>

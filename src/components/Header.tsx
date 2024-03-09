@@ -47,7 +47,10 @@ function Header() {
           <a href="#Asesorias">Asesorias</a>
         </li>
         <li>
-          <a href="#Address">Ubicación</a>
+          {/* <a href="#Address">Ubicación</a> */}
+          <a target="__blank" href="https://maps.app.goo.gl/ozucP3CDMDRGDQbu8">
+            Ubicación
+          </a>
         </li>
 
         <li>

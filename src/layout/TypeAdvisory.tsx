@@ -28,23 +28,26 @@ function TypeAdvisory() {
         >
           <Image
             route={firstImage}
-            url="https://encuadrado.com/p/vianny-macero/"
+            url="#PresentialModality"
             firsText="Presencial"
             secodText=""
+            target=""
           />
 
           <Image
             route={secondImage}
-            url="https://encuadrado.com/p/vianny-macero/"
+            url="#OnlineModality"
             firsText="Online"
             secodText="(Videollamada)"
+            target=""
           />
 
           <Image
             route={TirdImage}
-            url="https://encuadrado.com/p/vianny-macero/"
+            url="#FormModality"
             firsText="Formulario"
             secodText="(Sin Videollamada)"
+            target=""
           />
         </div>
       </div>

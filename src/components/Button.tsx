@@ -1,16 +1,16 @@
-import React from "react";
+import { MouseEventHandler } from "react";
 
 export default function Button(props: {
   name: string;
-  link: string;
+  onClick: MouseEventHandler;
   className: string;
 }) {
   return (
-    <a
-      className={`border-2 border-black px-6 py-3 ${props.className}`}
-      href={props.link}
+    <button
+      onClick={props.onClick}
+      className={`border-2 border-black px-6 py-3 focus:bg-white hover:bg-gray-700 hover:text-white ${props.className}`}
     >
       {props.name}
-    </a>
+    </button>
   );
 }

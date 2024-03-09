@@ -1,4 +1,4 @@
-import logo from "../assets/img/Logo.png";
+import logo from "../assets/img/logo-nutri-vmacero-simple.png";
 
 function Logo() {
   return (
@@ -7,8 +7,7 @@ function Logo() {
         src={logo}
         loading="lazy"
         alt="logo"
-        height={"140"}
-        width={"140"}
+        className="h-[63px] w-[63px] max-[601px]:h-[56px] max-[601px]:w-[56px]"
       ></img>
 
       {/* NUTRICIÓN 
