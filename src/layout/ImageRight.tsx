@@ -12,7 +12,7 @@ export default function ImageRight() {
       {/* <Divider id="" mb="100px" mt="100px" /> */}
       <div
         id="PresentialModality"
-        className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
+        className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1 max-[700px]:mt-20"
       >
         <div className="grid grid-cols-1 align-middle self-center gap-6 max-[700px]:col-row-1 text-center">
           <div>
