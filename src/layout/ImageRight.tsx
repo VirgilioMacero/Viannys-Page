@@ -1,6 +1,6 @@
 import ViannySmilingToFruit from "../assets/img/ViannySmilingToFruit.webp";
 import Button from "../components/Button";
-import Divider from "../components/Divider";
+// import Divider from "../components/Divider";
 import Modal from "../components/Modal";
 
 export default function ImageRight() {
@@ -9,7 +9,7 @@ export default function ImageRight() {
   }
   return (
     <>
-      <Divider id="" mb="100px" mt="100px" />
+      {/* <Divider id="" mb="100px" mt="100px" /> */}
       <div
         id="PresentialModality"
         className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
@@ -58,7 +58,7 @@ export default function ImageRight() {
                       "https://encuadrado.com/p/vianny-macero/s/primera-asesoria-nutricional-presencial/"
                     );
                   }}
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Pro Primera Vez"
                 />
                 <Button
@@ -67,7 +67,7 @@ export default function ImageRight() {
                       "https://encuadrado.com/p/vianny-macero/s/seguimiento-asesoria-nutricional-presencial/"
                     )
                   }
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Control de Seguimiento"
                 />
               </div>

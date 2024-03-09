@@ -1,4 +1,4 @@
-import Divider from "../components/Divider";
+// import Divider from "../components/Divider";
 import FormFilling from "../assets/img/FormFilling.png";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
@@ -9,7 +9,7 @@ export default function FormModality() {
   }
   return (
     <>
-      <Divider id="" mb="100px" mt="100px" />
+      {/* <Divider id="" mb="100px" mt="100px" /> */}
       <div
         id="FormModality"
         className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
@@ -57,7 +57,7 @@ export default function FormModality() {
                       "https://encuadrado.com/s/vianny-macero/atencion-nutricional-por-formulario/"
                     );
                   }}
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Pro Primera Vez"
                 />
                 <Button
@@ -66,7 +66,7 @@ export default function FormModality() {
                       "https://encuadrado.com/s/vianny-macero/atencion-nutricional-por-formulario/"
                     )
                   }
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Control de Seguimiento"
                 />
               </div>

@@ -9,7 +9,7 @@ export default function ImageLeft() {
   }
   return (
     <>
-      <Divider id="" mb="100px" mt="100px" />
+      <Divider id="" mb="" mt="100px" />
       <div
         id="OnlineModality"
         className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
@@ -56,7 +56,7 @@ export default function ImageLeft() {
                       "https://encuadrado.com/p/vianny-macero/s/primera-asesoria-nutricional-online/"
                     );
                   }}
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Pro Primera Vez"
                 />
                 <Button
@@ -65,7 +65,7 @@ export default function ImageLeft() {
                       "https://encuadrado.com/p/vianny-macero/s/asesoria-de-seguimiento-nutricional-online/"
                     )
                   }
-                  className="focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
                   name="Control de Seguimiento"
                 />
               </div>

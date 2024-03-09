@@ -6,7 +6,7 @@ export default function Modal(props: {
 }) {
   return (
     <dialog id={props.modalName} className="modal ">
-      <div className="modal-box bg-white rounded-none">{props.children}</div>
+      <div className="modal-box bg-white rounded-md">{props.children}</div>
       <form method="dialog" className="modal-backdrop">
         <button className="focus:bg-transparent">close</button>
       </form>
