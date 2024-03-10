@@ -14,7 +14,7 @@ export default function Reviews() {
           titleLeft={true}
           titleRigth={false}
           className="text-center mb-8"
-          titleClasses="max-[950px]:text-[230%]  max-[400px]:text-3xl"
+          titleClasses="max-[950px]:text-[230%]  max-[400px]:text-3xl "
         />
       </div>
       <div className=" grid grid-cols-3 gap-4 mx-8 overflow-y-auto h-[200px] max-[1100px]:grid-cols-2 max-[670px]:grid-cols-1 p-2">

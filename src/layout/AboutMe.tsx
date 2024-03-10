@@ -20,7 +20,7 @@ export default function AboutMe() {
               data="NUTRICIÓN 
  INTEGRAL
 Y DEPORTE "
-              usedClass="text-xl"
+              usedClass="text-xl max-[670px]:mr-[10.5px]"
             />
           </div>
           <div className="max-[700px]:p-4">

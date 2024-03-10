@@ -22,7 +22,7 @@ function Resume() {
               data="NUTRICIÓN 
  INTEGRAL
 Y DEPORTE "
-              usedClass="text-xl"
+              usedClass="text-xl max-[670px]:ml-[10.5px]"
             />
           </div>
           <div>

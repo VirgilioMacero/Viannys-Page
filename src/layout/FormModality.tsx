@@ -1,5 +1,5 @@
 // import Divider from "../components/Divider";
-import FormFilling from "../assets/img/FormFilling.png";
+import FormFilling from "../assets/img/FormFilling.webp";
 import Button from "../components/Button";
 import Modal from "../components/Modal";
 
@@ -14,7 +14,7 @@ export default function FormModality() {
         id="FormModality"
         className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
       >
-        <div className="max-[700px]:p-20">
+        <div className="max-[700px]:p-20 max-[700px]:row-start-2">
           <img src={FormFilling} loading="lazy" alt="Online Modality" />
         </div>
         <div className="grid grid-cols-1 align-middle self-center gap-6 max-[700px]:col-row-1 text-center">
@@ -58,7 +58,7 @@ export default function FormModality() {
                     );
                   }}
                   className="focus:bg-white hover:bg-gray-700 hover:text-white rounded-lg"
-                  name="Pro Primera Vez"
+                  name="Por Primera Vez"
                 />
                 <Button
                   onClick={() =>
@@ -70,12 +70,10 @@ export default function FormModality() {
                   name="Control de Seguimiento"
                 />
               </div>
-              <p
-                className="py-4 text-red-500 font-bold"
-                style={{ fontFamily: "Raleway" }}
-              >
-                Nota: Si llevabas seguimiento y lo dejaste por un plazo de 4
-                meses o mas selecciona por primera Vez
+              <p className="py-4 flex" style={{ fontFamily: "Raleway" }}>
+                <p className=" text-red-500 font-bold">Importante:</p>
+                Si han pasado más de 4 meses desde tu última sesión, selecciona
+                "Por Primera Vez".
               </p>
             </Modal>
           </div>
