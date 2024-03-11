@@ -8,14 +8,14 @@ function Image(props: {
   return (
     <a target={props.target} href={props.url}>
       <div
-        className="w-[287px] h-[287px] "
+        className="w-[287px] h-[287px] rounded-3xl shadow-2xl hover:border-2 hover:border-indigo-600"
         style={{
           backgroundImage: `url(${props.route})`,
           backgroundSize: "cover",
         }}
       >
         <h1
-          className="text-white text-center h-full text-3xl pt-28"
+          className="text-white h-full text-3xl pt-44 pl-10"
           style={{ fontFamily: "Garet Heavy" }}
         >
           {props.firsText}
@@ -24,7 +24,7 @@ function Image(props: {
           ) : (
             <>
               <br />
-              {props.secodText}
+              <h1 style={{ fontFamily: "Garet Book" }}>{props.secodText}</h1>
             </>
           )}
         </h1>

@@ -12,7 +12,7 @@ export default function FormModality() {
       {/* <Divider id="" mb="100px" mt="100px" /> */}
       <div
         id="FormModality"
-        className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
+        className="grid grid-cols-2  max-[700px]:grid-cols-1"
       >
         <div className="max-[700px]:p-20 max-[700px]:row-start-2">
           <img src={FormFilling} loading="lazy" alt="Online Modality" />
@@ -25,7 +25,7 @@ export default function FormModality() {
             >
               MODALIDAD<br></br> FORMULARIO
             </h1>
-            <p className="text-justify px-4 mt-3">
+            <p className="text-justify px-[77px] mt-3">
               En esta asesoría nos comunicaremos a través de un formulario que
               te haré llegar al correo, es igual de efectiva que una sesión
               online o presencial., ya que en el fromulario recopilaré toda la

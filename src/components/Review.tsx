@@ -7,11 +7,13 @@ export default function Review({
 }) {
   return (
     <div
-      className="text-center w-full self-end"
+      className="text-center w-full self-end border-2 border-slate-300 h-full  p-4"
       style={{ fontFamily: "Raleway" }}
     >
-      <div className="align-middle text-center p-2">{description}</div>
-      <div style={{ fontWeight: "bold" }} className="align-middle mt-3 text-xl">
+      <div className="align-middle h-[80%] text-center p-2 pb-4">
+        {description}
+      </div>
+      <div style={{ fontWeight: "bold" }} className="align-middle  text-xl">
         {name}
       </div>
     </div>

@@ -9,10 +9,10 @@ export default function ImageLeft() {
   }
   return (
     <>
-      <Divider id="" mb="" mt="100px" />
+      <Divider id="" mb="0px" mt="100px" />
       <div
         id="OnlineModality"
-        className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1 max-[700px]:mt-20"
+        className="grid grid-cols-2  max-[700px]:grid-cols-1 max-[700px]:mt-20"
       >
         <div className="max-[700px]:p-20 max-[700px]:row-start-2">
           <img src={ViannyLookingLaptop} loading="lazy" alt="Online Modality" />
@@ -25,7 +25,7 @@ export default function ImageLeft() {
             >
               MODALIDAD<br></br> ONLINE
             </h1>
-            <p className="text-justify px-4 mt-3">
+            <p className="text-justify px-[77px] mt-3">
               Asesoría nutricional por videollamada, con una duración de 60
               minutos donde conversaremos sobre tus hábitos, gustos, estilo de
               vida, objetivos nutricionales, entre otros temas para poder

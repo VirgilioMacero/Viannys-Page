@@ -12,7 +12,7 @@ export default function ImageRight() {
       {/* <Divider id="" mb="100px" mt="100px" /> */}
       <div
         id="PresentialModality"
-        className="grid grid-cols-2 gap-4 max-[700px]:grid-cols-1 "
+        className="grid grid-cols-2  max-[700px]:grid-cols-1 "
       >
         <div className="grid grid-cols-1 align-middle self-center gap-6 max-[700px]:col-row-1 text-center">
           <div>
@@ -22,7 +22,7 @@ export default function ImageRight() {
             >
               MODALIDAD<br></br> PRESENCIAL
             </h1>
-            <p className="text-justify px-8 mt-3">
+            <p className="text-justify px-[77px] mt-3">
               Asesoría nutricional presencial a domicilio, con una duración de
               60 - 90 minutos donde conversaremos sobre tus hábitos, gustos,
               estilo de vida, objetivos nutricionales, entre otros temas para

@@ -6,6 +6,10 @@
   font-family: "Garet Heavy";
   src: url("../fonts/Garet-Heavy.otf") format("opentype");
 }
+@font-face {
+  font-family: "Garet Book";
+  src: url("../fonts/Garet-Book.otf") format("opentype");
+}
 
 .Name {
   font-weight: 300;

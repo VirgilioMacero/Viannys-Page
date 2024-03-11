@@ -8,7 +8,7 @@ export default function FAQS() {
   }
   return (
     <>
-      <Divider id="FAQS" mb="100px" mt="" />
+      <Divider id="FAQS" mb="100px" mt="0px" />
 
       <div className=" grid grid-cols-3 gap-4 mx-8  max-[1100px]:grid-cols-2 max-[670px]:grid-cols-1 p-2">
         <FAQ
