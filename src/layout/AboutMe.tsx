@@ -5,7 +5,7 @@ import Message from "../components/Message";
 export default function AboutMe() {
   return (
     <>
-      <Divider id="about" mb="100px" mt="100px" />
+      <Divider id="about" mb="100px" mt="0px" />
       <div className="container grid grid-cols-2 gap-10 max-[700px]:grid-cols-1 max-[700px]:grid-rows-2">
         <div className="w-full max-[700px]:row-start-2 flex justify-center">
           <img
@@ -25,12 +25,12 @@ Y DEPORTE "
           </div>
           <div className="max-[700px]:p-4">
             <h1
-              style={{ fontFamily: "League script", fontWeight: "bold" }}
+              style={{ fontFamily: "Plus Jakarta Sans", fontWeight: "lighter" }}
               className="text-[60px]"
             >
-              sobre mi
+              SOBRE MI
             </h1>
-            <p>
+            <p className="mt-10 pr-[77px]">
               Si estás buscando una nutricionista que te ayude a alcanzar tus
               objetivos de salud y bienestar de una manera integral, has llegado
               al lugar correcto.

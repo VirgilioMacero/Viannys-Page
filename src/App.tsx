@@ -1,7 +1,6 @@
 import "./css/App.css";
 import Header from "./components/Header";
 import Inicio from "./layout/Inicio";
-import SecondPart from "./layout/SecondPart";
 // import AvalibleServices from "./layout/AvalibleServices";
 import TypeAdvisory from "./layout/TypeAdvisory";
 import NutritionalMessage from "./layout/NutritionalMessage";
@@ -14,6 +13,8 @@ import FormModality from "./layout/FormModality";
 import FAQButton from "./layout/FAQButton";
 import FAQS from "./layout/FAQS";
 import Contact from "./layout/Contact";
+import Address from "./layout/Address";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -22,7 +23,6 @@ function App() {
       <NutritionalMessage />
       <AboutMe />
       <Resume />
-      <SecondPart />
       {/* <AvalibleServices /> */}
       <TypeAdvisory />
       <Reviews />
@@ -32,6 +32,8 @@ function App() {
       <FAQButton />
       <FAQS />
       <Contact />
+      <Address />
+      <Footer />
     </>
   );
 }

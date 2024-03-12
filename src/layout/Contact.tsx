@@ -133,7 +133,6 @@ Y DEPORTE "
           />
         </div>
       </div>
-      <Divider mt="100px" mb="" id="" />
     </>
   );
 }

@@ -10,9 +10,15 @@ function Inicio() {
         className="grid grid-cols-2 max-[700px]:grid-cols-1"
         style={{ fontFamily: "Raleway" }}
       >
-        <div className="self-center ">
-          <h1 className="text-5xl mt-40">
-            NUTRICIONISTA <br></br>VIANNY MACERO
+        <div className="pt-20 text-center">
+          <h1
+            className="text-[60px] max-[1024px]:text-[45px]"
+            style={{ fontFamily: "Plus Jakarta Sans", fontWeight: "bolder" }}
+          >
+            NUTRICIONISTA
+          </h1>
+          <h1 className="text-[55px] max-[1024px]:text-[35px]">
+            VIANNY MACERO
           </h1>
         </div>
         <div className="grid grid-cols-2 gap-4 max-[700px]:mt-20  ">

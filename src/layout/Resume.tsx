@@ -26,7 +26,7 @@ Y DEPORTE "
             />
           </div>
           <div>
-            <h1 className="resume-title text-[60px]">Mis estudios</h1>
+            <h1 className="resume-title text-[60px]">MIS ESTUDIOS</h1>
             <Experience
               title={convertirMayusculas(
                 "Título de Nutricionista mención deporte"

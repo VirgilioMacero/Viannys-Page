@@ -17,7 +17,7 @@ export default function Reviews() {
           titleClasses="max-[950px]:text-[230%]  max-[400px]:text-3xl "
         />
       </div>
-      <div className=" grid grid-cols-3 gap-4 mx-8 overflow-y-auto h-[200px] max-[1100px]:grid-cols-2 max-[670px]:grid-cols-1 p-2">
+      <div className=" grid grid-cols-3 gap-4 mx-8 overflow-y-auto  max-[1100px]:grid-cols-2 max-[670px]:grid-cols-1 p-2">
         {jsonReviews.review.map((element, index) => {
           if (element.description !== "") {
             return (

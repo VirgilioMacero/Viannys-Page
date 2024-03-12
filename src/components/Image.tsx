@@ -8,7 +8,7 @@ function Image(props: {
   return (
     <a target={props.target} href={props.url}>
       <div
-        className="w-[287px] h-[287px] rounded-3xl shadow-2xl hover:border-2 hover:border-indigo-600"
+        className="w-[287px] h-[287px] rounded-3xl shadow-2xl  hover:shadow-[#213122] hover:shadow-2xl"
         style={{
           backgroundImage: `url(${props.route})`,
           backgroundSize: "cover",
