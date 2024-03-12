@@ -35,15 +35,27 @@ Y DEPORTE "
               objetivos de salud y bienestar de una manera integral, has llegado
               al lugar correcto.
               <br />
-              <br /> quiero Ayudarte a alcanzar tus metas a través de una
+              <br /> Quiero ayudarte a alcanzar tus metas a través de una
               alimentación saludable y balanceada, siempre considerando los
               distintos aspectos de tu vida y tu día a día, ya que mi atención
               es integral.
               <br />
-              <br /> Ya sea que busques mejorar tu rendimiento deportivo 🏋🏻,
-              reducir tu inflamación🫄🏻, mejorar tu relación con la comida 💘,
-              aumentar tu energía ⚡️o mejorar tu salud en general, estaré a tu
-              lado en cada paso del camino.
+              <br />
+              Ya sea que busques:
+              <br />
+              <ul
+                style={{ listStyleType: "initial" }}
+                className="list-disc pl-4"
+              >
+                <li>♦ Mejorar tu rendimiento deportivo.</li>
+                <li>♦ Reducir tu inflamación.</li>
+                <li>♦ Mejorar tu relación con la comida.</li>
+                <li>♦ Aumentar tu energía.</li>
+                <li>♦ Mejorar tu salud en general.</li>
+                <li>♦ U otra cosa...</li>
+              </ul>
+              <br />
+              Estaré a tu lado en cada paso del camino.
             </p>
           </div>
         </div>
