@@ -2,6 +2,7 @@ import Experience from "../components/Experience";
 import Divider from "../components/Divider";
 import fotoPerfil from "../assets/img/ViannySmilingonBooks.webp";
 import Message from "../components/Message";
+import Logo from "../components/Logo";
 
 function Resume() {
   function convertirMayusculas(texto: string) {
@@ -14,16 +15,11 @@ function Resume() {
   }
   return (
     <>
-      <Divider id="" mt="100px" mb="100px" />
+      <Divider id="" mt="100px" mb="100px" className="" />
       <div className="container grid grid-cols-2 max-[700px]:grid-cols-1 max-[700px]:grid-rows-2">
         <div className="">
           <div className="flex">
-            <Message
-              data="NUTRICIÓN 
- INTEGRAL
-Y DEPORTE "
-              usedClass="text-xl max-[670px]:ml-[10.5px]"
-            />
+            <Logo />
           </div>
           <div>
             <h1 className="resume-title text-[60px]">MIS ESTUDIOS</h1>

@@ -17,7 +17,7 @@ import Address from "./layout/Address";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <>
+    <div className="bg-[#F4F4F4]">
       <Header />
       <Inicio />
       <NutritionalMessage />
@@ -34,7 +34,7 @@ function App() {
       <Contact />
       <Address />
       <Footer />
-    </>
+    </div>
   );
 }
 

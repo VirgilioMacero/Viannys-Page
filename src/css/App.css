@@ -31,17 +31,11 @@
 .Message-arial > p {
   font-family: Raleway;
 }
-.nutritional-message > p {
-  font-family: Raleway;
-}
-.nutritional-message {
-  text-align: center;
-}
-.nutritional-message-styled {
-  text-align: center;
-}
-.nutritional-message-styled > p {
-  font-family: Shantell Sans;
+.nutritional-message-bg {
+  background-image: url("../assets/img/ViannySmillingOnFruit.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .Message-arial {
   text-align: center;
@@ -83,6 +77,11 @@
 @media (max-width: 800px) {
   .presentation {
     margin-left: 0px;
+  }
+}
+@media (max-width: 950px) {
+  .nutritional-message-bg {
+    background-image: none;
   }
 }
 /* .abalible-services:hover{
