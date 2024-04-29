@@ -8,7 +8,7 @@ import TirdImage from "../assets/img/LaptopForm.png";
 function TypeAdvisory() {
   return (
     <>
-      <Divider id="Asesorias" mt="100px" mb="100px" />
+      <Divider id="Asesorias" mt="100px" mb="100px" className="" />
 
       <div className="container">
         <SegmentTitle
@@ -20,7 +20,7 @@ function TypeAdvisory() {
         />
 
         <div
-          className=" grid grid-cols-3 place-items-center gap-4 max-[1025px]:grid-cols-2 max-[700px]:grid-cols-1"
+          className=" grid grid-cols-4 place-items-center gap-4 max-[1540px]:grid-cols-3 max-[1280px]:grid-cols-2 max-[768px]:grid-cols-1"
           style={{
             marginTop: "100px",
             marginBottom: "100px",
@@ -33,20 +33,25 @@ function TypeAdvisory() {
             secodText=""
             target=""
           />
-
           <Image
             route={secondImage}
             url="#OnlineModality"
             firsText="Online"
-            secodText="(Videollamada)"
+            secodText="Videollamada"
             target=""
           />
-
           <Image
             route={TirdImage}
             url="#FormModality"
             firsText="Formulario"
-            secodText="(Sin Videollamada)"
+            secodText="Sin Videollamada"
+            target=""
+          />
+          <Image
+            route={TirdImage}
+            url="#FormModality"
+            firsText="Formulario"
+            secodText="Sin Videollamada"
             target=""
           />
         </div>
