@@ -23,6 +23,7 @@ export default function TextInput(props: {
         border: isFocused ? "1px solid #000000" : "1px solid black",
         borderBottom: isFocused ? "1px solid #000000" : "1px solid #000000",
         boxShadow: isFocused ? "1px 1px 1px 1px #000000" : "",
+        borderRadius: "25px",
       }}
       onFocus={() => setIsFocused(true)}
       onBlur={() => setIsFocused(false)}

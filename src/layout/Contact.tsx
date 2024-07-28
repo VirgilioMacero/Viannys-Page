@@ -4,6 +4,7 @@ import Message from "../components/Message";
 import TextInput from "../components/TextInput";
 import emailJs from "@emailjs/browser";
 import { useState } from "react";
+import Logo from "../components/Logo";
 
 export default function Contact() {
   emailJs.init({
@@ -42,7 +43,7 @@ export default function Contact() {
 
   return (
     <>
-      <Divider id="" mb="100px" mt="100px" />
+      <Divider id="" mb="100px" mt="100px" className="" />
 
       <div
         id="contacto"
@@ -50,12 +51,9 @@ export default function Contact() {
       >
         <div>
           <div className="grid gap-5 max-[670px]:ml-4">
-            <Message
-              data="NUTRICIÓN 
- INTEGRAL
-Y DEPORTE "
-              usedClass="text-xl"
-            />
+            <div>
+              <Logo className="h-[80px] w-[80px]" />
+            </div>
 
             <form
               id="contact-form"
@@ -105,6 +103,8 @@ Y DEPORTE "
                     border: "1px solid black",
                     paddingLeft: "7px",
                     width: "101.5%",
+                    height: "120px",
+                    borderRadius: "25px",
                   }}
                   name="message"
                   value={formValues.message}
@@ -113,7 +113,7 @@ Y DEPORTE "
               </div>
               <div className="text-center">
                 <button
-                  className="border-2 border-black px-8 py-3 focus:bg-white hover:bg-gray-700 hover:text-white"
+                  className="border-[1px] rounded-3xl border-black px-8 py-3 focus:bg-white hover:bg-gray-700 hover:text-white"
                   type="submit"
                 >
                   ENVIAR

@@ -5,9 +5,9 @@ import Message from "../components/Message";
 
 export default function AboutMe() {
   const [showMore, setShowMore] = useState(false);
-  const data = `Nací y crecí en Venezuela, y llegué a Chile en el año 2018, donde inicié mis estudios universitarios, la nutrición siempre fue mi pasión, inicialmente con enfoque deportivo y a medida que avancé en mis estudios entendí la importancia de considerar todos aspectos, especialmente la parte psicológica, por lo que profundicé y sigo en constante busqueda de ampliar mis estudios tanto en nutrición deportiva como en psiconutrición, mindfulness y coaching.
-
-  Quiero ayudarte a alcanzar tus objetivos de salud y bienestar de una manera integral, para que puedas mejorar tu calidad de vida de una forma sostenible al largo plazo.`;
+  const data = `Nací y crecí en Venezuela, y llegué a Chile en el año 2018, donde inicié mis estudios universitarios, la nutrición siempre fue mi pasión, inicialmente con enfoque deportivo y a medida que avancé en mis estudios entendí la importancia de considerar todos aspectos, especialmente la parte psicológica, por lo que profundicé y sigo en constante busqueda de ampliar mis estudios tanto en nutrición deportiva como en psiconutrición, mindfulness y coaching. 
+  
+   \nQuiero ayudarte a alcanzar tus objetivos de salud y bienestar de una manera integral, para que puedas mejorar tu calidad de vida de una forma sostenible al largo plazo.`;
 
   return (
     <>
@@ -40,7 +40,14 @@ Y DEPORTE "
               className="mt-10 pr-[77px] max-[700px]:pr-0 text-justify text-xl"
               style={{ fontFamily: "Raleway" }}
             >
-              {showMore ? data : `${data.substring(0, 250) + "......"}`}
+              {showMore
+                ? data.split("\n").map((line, index) => (
+                    <div key={index}>
+                      {line}
+                      <br />
+                    </div>
+                  ))
+                : `${data.substring(0, 250) + "......"}`}
             </p>
             <button
               className="focus:bg-transparent"

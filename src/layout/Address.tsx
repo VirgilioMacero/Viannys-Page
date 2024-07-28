@@ -1,15 +1,13 @@
 import Divider from "../components/Divider";
+import Logo from "../components/Logo";
 import Message from "../components/Message";
 
 export default function Address() {
   return (
     <>
-      <Divider mb="100px" mt="100px" id="" />
-      <div className="container flex flex-row-reverse">
-        <Message
-          data={`NUTRICIÓN \n INTEGRAL \n Y DEPORTE`}
-          usedClass="text-xl"
-        ></Message>
+      <Divider mb="100px" mt="100px" id="" className="" />
+      <div className="container flex ">
+        <Logo className="h-[80px] w-[80px]" />
       </div>
       <div
         id="Address"
