@@ -7,7 +7,7 @@ export default function Divider({
   id: string;
   mt: string;
   mb: string;
-  className: string;
+  className?: string;
 }) {
   return (
     <div

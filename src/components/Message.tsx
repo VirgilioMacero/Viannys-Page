@@ -1,4 +1,4 @@
-function Message(props: { data: string; usedClass: string }) {
+function Message(props: { data: string; usedClass?: string }) {
   const lines = props.data
     .split("\n")
     .map((line, index) => (

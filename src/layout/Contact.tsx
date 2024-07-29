@@ -1,6 +1,5 @@
 import Divider from "../components/Divider";
 import ViannySmillingToLaptopCoffe from "../assets/img/ViannySmillingToCoffeAndLaptop.webp";
-import Message from "../components/Message";
 import TextInput from "../components/TextInput";
 import emailJs from "@emailjs/browser";
 import { useState } from "react";

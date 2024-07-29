@@ -1,6 +1,6 @@
 import logo from "../assets/img/logo-nutri-vmacero-simple.png";
 
-function Logo({ className }: { className: string }) {
+function Logo({ className }: { className?: string }) {
   return (
     <a href="#" className="nav-logo logo left">
       <img

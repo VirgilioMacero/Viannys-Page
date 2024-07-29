@@ -1,7 +1,6 @@
 import Experience from "../components/Experience";
 import Divider from "../components/Divider";
 import fotoPerfil from "../assets/img/ViannySmilingonBooks.webp";
-import Message from "../components/Message";
 import Logo from "../components/Logo";
 
 function Resume() {

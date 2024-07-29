@@ -1,6 +1,5 @@
 import Divider from "../components/Divider";
 import Logo from "../components/Logo";
-import Message from "../components/Message";
 
 export default function Address() {
   return (
